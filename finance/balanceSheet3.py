@@ -5,10 +5,10 @@ sys.path.insert(0,parentdir)
 
 import xmind
 from xmind.core.markerref import MarkerId
-xmind_name="finance"
+xmind_name="balanceSheet"
 w = xmind.load(os.path.dirname(os.path.abspath(__file__))+"\\"+xmind_name+".xmind") 
 s2=w.createSheet()
-s2.setTitle("报表")
+s2.setTitle("balanceSheet")
 r2=s2.getRootTopic()
 r2.setTitle("报表")
 
